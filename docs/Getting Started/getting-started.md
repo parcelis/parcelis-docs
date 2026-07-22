@@ -5,7 +5,7 @@ excerpt: >-
   workspace.
 hidden: false
 ---
-Parcelis gives you one workspace to review your portfolio, manage properties, and inspect the operating data attached to each property.
+Parcelis (PAR-suhl-iss) gives you one workspace to review your portfolio, manage properties, and inspect the operating data attached to each property.
 
 ## Start here
 
@@ -40,3 +40,5 @@ Parcelis currently supports:
 <Callout icon="📘" theme="info">
   **Planned areas:** The sidebar shows Leases, Tenants, Maintenance, Accounting, and Settings, but they are not yet full standalone workflows.
 </Callout>
+
+<br />
