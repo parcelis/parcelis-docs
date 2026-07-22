@@ -27,8 +27,12 @@ Parcelis saves your theme preference in your browser.
 
 ## Keyboard shortcuts
 
-| Shortcut | Action |
-| --- | --- |
-| `Cmd+Shift+P` or `Ctrl+Shift+P` | Open the property drawer. |
-| `/` | Focus property search on the Properties page. |
-| `Cmd+Enter` or `Ctrl+Enter` | Submit the property drawer when all required fields are valid. |
+| Shortcut                        | Action                                                         |
+| ------------------------------- | -------------------------------------------------------------- |
+| `Cmd+Shift+P` or `Ctrl+Shift+P` | Open the property drawer.                                      |
+| `/`                             | Focus property search on the Properties page.                  |
+| `Cmd+Enter` or `Ctrl+Enter`     | Submit the property drawer when all required fields are valid. |
+| `Cmd-Shift-D` or `Ctrl+Shift+D` | Switch between light and dark modes.                           |
+|                                 |                                                                |
+
+<br />
