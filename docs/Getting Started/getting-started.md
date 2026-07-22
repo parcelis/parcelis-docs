@@ -1,48 +1,42 @@
 ---
 title: Welcome to Parcelis
+excerpt: >-
+  Get started with Parcelis and manage your property portfolio from one
+  workspace.
 hidden: false
 ---
+Parcelis gives you one workspace to review your portfolio, manage properties, and inspect the operating data attached to each property.
+
+## Start here
+
+1. Open the **Portfolio** dashboard to review your portfolio’s current occupancy, rent roll, leasing, and maintenance indicators.
+2. Add your first property with its address, name, type, and unit count.
+3. Open **Properties** to confirm the record, then select it to review its units, leases, maintenance, financials, and contact information.
+
+<Cards>
+  <Card title="Portfolio dashboard" href="/docs/portfolio-dashboard" icon="fa-duotone fa-chart-line">Review portfolio metrics, property snapshots, and common actions.</Card>
+  <Card title="Manage properties" href="/docs/manage-properties" icon="fa-duotone fa-building">Add, edit, find, filter, archive, and delete properties.</Card>
+  <Card title="Property details" href="/docs/property-details" icon="fa-duotone fa-file-lines">Review unit, lease, maintenance, contact, and financial summaries.</Card>
+  <Card title="Navigation and shortcuts" href="/docs/navigation-and-shortcuts" icon="fa-duotone fa-keyboard">Use the sidebar, change themes, and work with keyboard shortcuts.</Card>
+</Cards>
+
+<br />
+
+## Who this guide is for
+
+Use this guide if you are a day-to-day operator, property manager, leasing coordinator, maintenance coordinator, or owner working in Parcelis.
+
+## Current product scope
+
+Parcelis currently supports:
+
+- Portfolio dashboard visibility.
+- Property creation, editing, notes, archiving, and deletion.
+- Property directory search, filters, and unit expansion.
+- Property detail review.
+- Unit, lease, maintenance, and financial summaries when data exists.
+- Sidebar collapse and theme preferences.
+
 <Callout icon="📘" theme="info">
-  **Template:**  Delete this callout and edit this page with your content and links.
+  **Planned areas:** The sidebar shows Leases, Tenants, Maintenance, Accounting, and Settings, but they are not yet full standalone workflows.
 </Callout>
-
-<Cards>
-  {/* Edit the props below to customize these components */}
-  <Card title="Quick Start" href="#" icon="fa-duotone fa-rocket-launch">Learn how to get started with our product</Card>
-
-  <Card title="API Reference" href="#" icon="fa-duotone fa-code-simple">Explore endpoints and build your integration</Card>
-
-  <Card title="Build with AI" href="#" icon="fa-duotone fa-sparkles">Use LLM features to automate your workflow</Card>
-</Cards>
-
-<br />
-
-## Recent Releases
-
-<Cards>
-  <Card isNew kind="tile" title="v2.0 Migration" href="#" icon="fa-duotone fa-magnifying-glass">Everything you need to upgrade</Card>
-
-  <Card kind="tile" title="Webhooks" href="#" icon="fa-duotone fa-bullhorn">Real-time events are now available</Card>
-
-  <Card kind="tile" title="Android SDK" href="#" icon="fa-duotone fa-robot">Our native Android library is out of beta</Card>
-</Cards>
-
-<br />
-
-## The Basics
-
-<Cards>
-  <Card kind="tile" title="Customize" href="#" icon="fa-duotone fa-brush">Style the widget to match your brand</Card>
-
-  <Card kind="tile" title="Integrations" href="#" icon="fa-duotone fa-arrow-down-left-and-arrow-up-right-to-center">Connect with third-party services</Card>
-
-  <Card kind="tile" title="CLI" href="#" icon="fa-duotone fa-terminal">Manage resources from your terminal</Card>
-
-  <Card kind="tile" title="Security" href="" icon="fa-duotone fa-shield-dog">Learn how we secure your data</Card>
-
-  <Card kind="tile" title="Common Issues" href="" icon="fa-duotone fa-file-circle-info">Troubleshoot common issues</Card>
-
-  <Card kind="tile" title="Sync" href="#" icon="fa-duotone fa-code-compare">Connect to a storage provider</Card>
-</Cards>
-
-<br />
