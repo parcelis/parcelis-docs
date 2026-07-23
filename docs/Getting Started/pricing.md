@@ -11,6 +11,6 @@ metadata:
 
 # Is There a Cost to Sign Up for Parcelis?
 
-Parcelis is free to sign up and use—there are no upfront costs or required subscriptions to get started at this time
+Parcelis is free to sign up and use—there are no upfront costs or required subscriptions to get started at this time.
 
 <br />
