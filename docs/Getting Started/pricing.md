@@ -9,7 +9,7 @@ metadata:
   Currently all features provided by Parcelis are open-source and free to use. Long-term product backlog will eventually introduce a pricing structure to unlock.
 </Callout>
 
-# Is There a Cost to Sign Up for TurboTenant?
+# Is There a Cost to Sign Up for Parcelis?
 
 Parcelis is free to sign up and use—there are no upfront costs or required subscriptions to get started at this time
 
