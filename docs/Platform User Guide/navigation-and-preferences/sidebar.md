@@ -4,8 +4,7 @@ excerpt: ""
 hidden: false
 ---
 The sidebar includes links for Portfolio, Properties, Leases, Tenants, Maintenance, Income, and Settings.
-Portfolio, Properties, Tenants, Maintenance, Income, and Settings are active areas in the current app. Leases is
-visible as a planned product area.
+Portfolio, Properties, Leases, Tenants, Maintenance, Income, and Settings are active areas in the current app.
 
 The expanded sidebar displays the Parcelis banner for the current theme and the active organization's avatar. If you
 can access more than one organization, an Organization selector appears above the navigation; selecting an
