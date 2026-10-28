@@ -1,7 +1,7 @@
 ---
 title: Welcome to Parcelis
 excerpt: >-
-  Get started with Parcelis and manage your property portfolio from one
+  hi Get started with Parcelis and manage your property portfolio from one
   workspace.
 hidden: false
 ---
