@@ -1,7 +1,7 @@
 # Welcome to your ReadMe docs 👋
 
 > Docusaurus site scaffold: see [`docusaurus-site/`](./docusaurus-site/).  
-> Source branch: `docusaurus-docs-site`; deployment: Cloudflare Pages at `docs.parcelis.dev`.
+> Source branch: `docusaurus-docs-site`; deployment: Cloudflare Pages at `docs.parcelis.dev`..
 
 This repo is the home for your [ReadMe](https://readme.com) documentation. Everything here, including guides, API references, and custom pages, shows up on your docs site.
 
