@@ -26,6 +26,8 @@ Select **Filters** to narrow the directory by tenant status, account status, or 
 **Apply Filters** to update the list or **Clear Filters** to reset it. The Filters button shows the active filter
 count.
 
+Active and Past tenant status filters require Leases View permission. Without it, those options are hidden and any previously selected Active or Past filter is ignored. All statuses and Archived remain available.
+
 ## Tenant Actions
 
 Open the actions menu on a tenant row to:

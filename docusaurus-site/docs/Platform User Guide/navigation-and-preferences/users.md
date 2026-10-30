@@ -36,6 +36,9 @@ responses apply each related resource's View permission. Restricted collections 
 balances, occupancy, and lease-derived tenant status are unavailable rather than reported as zero or
 past. The screens display **Unavailable** for restricted metrics and status. A tenant's archive status
 remains visible with Tenants View. Property capacity (`unitCount`) remains part of the property record.
+Lease-derived rent and current-lease information also display **Unavailable** without Leases View.
+Property status filters are unavailable without Leases View; the open-ticket filter keeps properties
+whose maintenance counts are hidden.
 
 Invoices View is required for nested invoice records and overdue balances, including when Leases View
 is granted. Direct invoice details and PDF downloads also require Invoices View. Notes View is required
@@ -45,4 +48,5 @@ Roles and their resource permissions are platform-wide. The platform Administrat
 all organizations and bypasses stored role grants; it is not an organization-isolated administrator role.
 Other users can select only organizations where they have membership, and record reads are scoped to
 the selected organization. These controls do not provide independently configured roles per organization.
-Organization API tokens retain full access to their documented operations within their issuing organization.
+Organization API tokens receive their issuing organization's capabilities for allowlisted REST operations.
+Feature flags, supported-action checks, nested ownership checks, and domain validation still apply.
