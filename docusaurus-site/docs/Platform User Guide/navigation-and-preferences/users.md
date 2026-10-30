@@ -28,3 +28,25 @@ Invoice Notes separately. The parent Notes checkboxes apply an action to every n
 the sub-items differ. A role must also have View access to the record containing the note. For example, reading a unit
 note requires both Unit Notes View and Units View. Notes do not support archiving. Administrator permissions are
 always enabled and cannot be changed.
+
+## Related records and restricted information
+
+Viewing a property or tenant does not grant access to its related records. Property and tenant
+responses apply each related resource's View permission. Restricted collections are empty; restricted
+balances, occupancy, and lease-derived tenant status are unavailable rather than reported as zero or
+past. The screens display **Unavailable** for restricted metrics and status. A tenant's archive status
+remains visible with Tenants View. Property capacity (`unitCount`) remains part of the property record.
+Lease-derived rent and current-lease information also display **Unavailable** without Leases View.
+Property status filters are unavailable without Leases View; the open-ticket filter keeps properties
+whose maintenance counts are hidden.
+
+Invoices View is required for nested invoice records and overdue balances, including when Leases View
+is granted. Direct invoice details and PDF downloads also require Invoices View. Notes View is required
+for legacy note fields as well as the Notes drawer, together with View access to the parent record.
+
+Roles and their resource permissions are platform-wide. The platform Administrator role has access to
+all organizations and bypasses stored role grants; it is not an organization-isolated administrator role.
+Other users can select only organizations where they have membership, and record reads are scoped to
+the selected organization. These controls do not provide independently configured roles per organization.
+Organization API tokens receive their issuing organization's capabilities for allowlisted REST operations.
+Feature flags, supported-action checks, nested ownership checks, and domain validation still apply.

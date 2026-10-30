@@ -8,7 +8,7 @@ On mobile, header actions collapse into the **Actions** menu. On larger screens,
 
 ## Edit a Property
 
-Use **Edit Property** to update property details, address, unit count, type, or contact information.
+Use **Edit Property** to update property details, address, unit count, type, or contact information. Editing requires Properties Edit, Units View, and Units Edit permissions because the drawer saves unit details with the property. The edit action is disabled when any of these permissions is denied, preserving hidden units and preventing saves that would be rejected.
 
 The property drawer also includes **Unit Details**. Use it to add, edit, or remove unit cards associated with the property. Existing units appear in the edit drawer when they are available.
 
@@ -36,8 +36,8 @@ preferences, access details, renewal reminders, or property-specific instruction
 
 ## Archive a Property
 
-Use **Actions → Archive Property** to hide a property from the default property list without permanently deleting it. Archived properties can be found by filtering for archived records. For archived properties, use **Actions → Unarchive Property** to restore them to the active list.
+Archiving and unarchiving require Properties Archive permission. Use **Actions → Archive Property** to hide a property from the default property list without permanently deleting it. Archived properties can be found by filtering for archived records. For archived properties, use **Actions → Unarchive Property** to restore them to the active list.
 
 ## Delete a Property
 
-Use **Actions → Delete Property** only when the property should be permanently removed and has no history. Properties with leases, invoices, applications, maintenance, notes, or activity must be archived so their records remain available. Parcelis asks for confirmation before deleting.
+Deleting requires both Properties Delete and Units Delete permissions. Use **Actions → Delete Property** only when the property should be permanently removed and has no history. Properties with leases, invoices, applications, maintenance, notes, or activity must be archived so their records remain available. Parcelis asks for confirmation before deleting.

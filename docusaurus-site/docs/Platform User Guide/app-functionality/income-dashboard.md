@@ -3,6 +3,8 @@ title: Income Dashboard
 slug: /income-dashboard
 ---
 Use **Income** in the sidebar to review rent income across the portfolio.
+The dashboard requires both Invoices View and Leases View. Without Leases View, income is
+**Unavailable**. If loading your permissions fails, select **Retry**.
 
 The dashboard summarizes scheduled monthly rent, expected income after overdue balances, and the total overdue
 balance for active and notice-period leases. The income tables also include scheduled leases and their saved invoice
@@ -20,7 +22,11 @@ your search and grouping stay as they were.
 ## Manual Invoices
 
 Select **New Invoice** to add a charge for an existing lease. Choose the property, unit, and lease term; the linked
-tenant is filled in automatically. Select **Add item** to choose a configured charge or **Custom item**. A configured
+tenant is filled in automatically. With Invoices Create, you can create an invoice even when
+Tenants View is denied: the tenant field displays **Unavailable**, and the invoice uses the lease's
+linked tenant. When no tenant is supplied, Parcelis uses the tenant added to the lease earliest,
+with the lowest tenant ID breaking ties. For individual billing, only that tenant receives the invoice.
+Select **Add item** to choose a configured charge or **Custom item**. A configured
 charge fills in its default description, with `{month}` and `{year}` filled from the due date; a custom item lets you
 enter its name. You can edit the description for this
 invoice. The form shows the subtotal, paid amount, and balance due before the invoice is created. Manage reusable
