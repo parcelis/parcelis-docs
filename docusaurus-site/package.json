@@ -2,7 +2,7 @@
   "name": "docusaurus-site",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@12.16.1",
+  "packageManager": "pnpm@10.11.1",
   "scripts": {
     "docusaurus": "docusaurus",
     "generate:api": "docusaurus clean-api-docs parcelis && docusaurus gen-api-docs parcelis",

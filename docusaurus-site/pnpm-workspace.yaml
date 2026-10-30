@@ -1,11 +1,13 @@
 packages:
   - '.'
 
-allowBuilds:
-  '@parcel/watcher': false
-  '@swc/core': true
-  core-js: false
-  postman-code-generators: false
+onlyBuiltDependencies:
+  - '@swc/core'
+
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - core-js
+  - postman-code-generators
 
 overrides:
   serialize-javascript: ^7.1.4
