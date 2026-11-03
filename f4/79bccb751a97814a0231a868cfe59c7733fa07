@@ -1,0 +1,19 @@
+.github/workflows/pr-dependencies-check.yml
+  s_ab72d7d027af02::t_74b0a8f1899c98 1-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f479bccb751a97814a0231a868cfe59c7733fa07",
+  "prompts": {},
+  "sessions": {
+    "s_ab72d7d027af02": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a30e-1ee3-7c30-b82e-e9ad9e905705",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
