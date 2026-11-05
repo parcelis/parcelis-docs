@@ -1,0 +1,49 @@
+docs/Deployment/api-token-rollout.md
+  s_3b878a54e00f41::t_aed023e84dce1e 98-100
+docs/Deployment/deploy-with-docker-compose-single-image.md
+  s_3b878a54e00f41::t_467b845a89ea65 6,21,23,27,31-39,115,134,161-163,165,171
+docs/Deployment/deploy-with-docker-compose.md
+  s_3b878a54e00f41::t_cde53fb839fe4b 6,13-14,29-38,50
+docs/Deployment/deploy-with-docker.md
+  s_3b878a54e00f41::t_4342a71724009c 6,17,46,52,89
+docs/Deployment/status-monitor.md
+  s_3b878a54e00f41::t_e99141695171f5 36
+"docs/For contributors/architecture.md"
+  s_3b878a54e00f41::t_ec66076c5a4c8a 7,133-134
+"docs/For contributors/contributor-getting-started.md"
+  s_3b878a54e00f41::t_cc96f30f5e67a2 6,38,41-42,50
+"docs/For contributors/database-erd.md"
+  s_3b878a54e00f41::t_1b0d556bcf7bd8 8
+docusaurus-site/docs/Deployment/api-token-rollout.md
+  s_3b878a54e00f41::t_c135314f142a57 97-99
+docusaurus-site/docs/Deployment/deploy-with-docker-compose-single-image.md
+  s_3b878a54e00f41::t_f200677bea5df1 5,20,22,26,30-38,114,133,160-162,164,170
+docusaurus-site/docs/Deployment/deploy-with-docker-compose.md
+  s_3b878a54e00f41::t_c1c140eb13574d 5,12-13,28-37,49
+docusaurus-site/docs/Deployment/deploy-with-docker.md
+  s_3b878a54e00f41::t_7ed5e65923f385 5,16,45,51,88
+docusaurus-site/docs/Deployment/status-monitor.md
+  s_3b878a54e00f41::t_eebf0b167d20ed 35
+"docusaurus-site/docs/For contributors/architecture.md"
+  s_3b878a54e00f41::t_9111ea32b21e67 6,132-133
+"docusaurus-site/docs/For contributors/contributor-getting-started.md"
+  s_3b878a54e00f41::t_a77b694003b680 5,37,40-41,49
+"docusaurus-site/docs/For contributors/database-erd.md"
+  s_3b878a54e00f41::t_e4db20c4c645b5 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c27c12ed2fee734577b87e3ca654eeb6a2c2d1d4",
+  "prompts": {},
+  "sessions": {
+    "s_3b878a54e00f41": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1aa0a-1632-7f63-875f-15d61d9c3071",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
