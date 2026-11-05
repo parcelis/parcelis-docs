@@ -1,0 +1,21 @@
+docusaurus-site/docusaurus.config.ts
+  s_2ec76dec3066ef::t_990e4632505afb 12
+docusaurus-site/README.md
+  s_2ec76dec3066ef::t_990e4632505afb 11,29-32,46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8261da3f3e5a3ef43edefefda7eea072771bb527",
+  "prompts": {},
+  "sessions": {
+    "s_2ec76dec3066ef": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a9da-f61d-77b2-b545-a7a87267c373",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
