@@ -1,0 +1,19 @@
+docusaurus-site/docs/Deployment/deploy-with-docker-compose.md
+  s_2ed872482c310a::t_39d2cf7981532d 136,139-150,152-153
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d065b16de0cc48b199203184dedfb96ad727f91c",
+  "prompts": {},
+  "sessions": {
+    "s_2ed872482c310a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c0ef-0b65-73d1-938e-9914d120e39a",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
