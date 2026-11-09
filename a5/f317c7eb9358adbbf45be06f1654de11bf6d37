@@ -1,0 +1,27 @@
+docusaurus-site/docs/Deployment/deploy-with-docker-compose-single-image.md
+  s_f23daa86612cc8::t_9d8e8df1b0db9c 5,26,30,32,35,38,91,100,114,161,168
+docusaurus-site/docs/Deployment/deploy-with-docker-compose.md
+  s_f23daa86612cc8::t_eba3bf122682fd 28,30,33-35,38,61,68,76-85
+docusaurus-site/docs/Deployment/deploy-with-docker.md
+  s_f23daa86612cc8::t_0e967dabb3fea7 5,22-23,33-36,48,51,57,62-84,89,95,99,106
+docusaurus-site/docs/Deployment/upgrade-postgresql.md
+  s_f23daa86612cc8::t_38d5c579d79d62 33
+"docusaurus-site/docs/For contributors/architecture.md"
+  s_f23daa86612cc8::t_53a68e981b188d 20-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a5f317c7eb9358adbbf45be06f1654de11bf6d37",
+  "prompts": {},
+  "sessions": {
+    "s_f23daa86612cc8": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1beda-e4e5-7731-86d0-d4fbfc7a652f",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
