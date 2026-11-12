@@ -4,6 +4,9 @@ slug: /organization-settings
 ---
 Open **Settings**, then select **Organization** and **General** to manage the active organization.
 
+Settings uses a shared panel with grouped navigation beside the current section. On smaller screens, use the
+**Settings section** selector to switch sections. Available sections follow your permissions.
+
 Organization administrators can update the organization name, address, phone number, contact email address, and URL slug. Saving a new
 slug updates the organization URL; use the new URL for subsequent navigation.
 
@@ -43,6 +46,17 @@ separately in [Email Settings](./email-settings.md).
 If you can access more than one organization, use the **Organization** selector near the top of the expanded sidebar
 to switch workspaces. Properties, tenants, leases, invoices, maintenance, and related operational records are shown
 for the selected organization.
+
+### View organization contact information
+
+Under **Settings → Organization → General → Organizations**, select **Contact information** on an
+organization row to view its saved email, phone number, and mailing address. The panel is read-only and
+available even without permission to edit organization settings. It only shows details for organizations
+you can access.
+
+Missing fields show **Not provided**. If no contact details are configured, the panel shows
+**No contact information has been provided.** Organization administrators can update these details in
+the organization's General settings.
 
 ### API tokens
 
