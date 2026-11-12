@@ -25,3 +25,11 @@ If contact information was added, the Property Contact section shows contact nam
 Maintenance lists tickets attached to the property, including title, status, priority, and due date. Select a ticket
 to open its maintenance detail page. Financials summarizes gross scheduled rent, overdue balance, leases expiring
 within 90 days, estimated vacancy loss, and owner distribution.
+
+## Invoice balances
+
+Overdue balances include ended and archived lease debt and use the organization's calendar date. Unit collection
+figures use saved invoices across that unit's lease history: net payments recorded across all dates, outstanding,
+overdue, due today, and future scheduled balances. Voided invoices are excluded and reversed payments reduce net
+payments. These totals may include deposits and other charges; they are not monthly rent revenue. Unit invoice rows
+show real outstanding invoices rather than estimated charges.
