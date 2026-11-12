@@ -1,0 +1,19 @@
+"docusaurus-site/docs/Platform User Guide/app-functionality/income-dashboard.md"
+  s_5b5aa467ce4736::t_26bc461926a596 51-53,62-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ffdfff5c74e1051ac0ec256a262261b247099404",
+  "prompts": {},
+  "sessions": {
+    "s_5b5aa467ce4736": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1cca7-30b2-7591-a816-7f1332c99b06",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
