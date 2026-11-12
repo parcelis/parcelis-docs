@@ -28,7 +28,13 @@ and primary emergency contact. Select the emergency contact's name to review or 
 
 ## Collections and Invoices
 
-The Collection card summarizes current and past-due invoices and collected rent when lease data exists. Use
+The Collection card shows net recorded payments across all dates, outstanding balances, and overdue balances from
+saved invoices across the tenant's lease history, including ended and archived leases. Voided invoices are excluded;
+reversed payments reduce net recorded payments. Shared obligations are shown at their full invoice amount and do not
+represent only this tenant's payment contribution. Payments can include rent, deposits, and other charges.
+
+Invoices become overdue the day after their due date in the organization's timezone; invoices due today and future
+invoices are not overdue. Use
 **View All Invoices** or an invoice identifier to open the corresponding invoice view.
 
 ## Lease History

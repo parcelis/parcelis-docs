@@ -39,3 +39,10 @@ adjust or clear its filters to continue.
 
 Counts exclude archived tickets. A ticket associated with several units counts once for the property and once
 for each associated unit. Tickets saved only with a unit label count against that unit within the same property.
+
+## Overdue balances
+
+Property, portfolio, and expanded unit overdue totals include outstanding invoices from all lease history, including
+ended and archived leases. Only positive balances with a due date before today in the organization's timezone count.
+Invoices due today, future charges, paid invoices, and voided invoices do not contribute. Monthly rent and occupancy
+remain operational measures of current leases; historical debt does not make a unit occupied.
