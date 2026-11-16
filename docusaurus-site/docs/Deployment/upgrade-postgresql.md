@@ -2,6 +2,7 @@
 title: Upgrade PostgreSQL 16 to 18
 slug: /upgrade-postgresql
 ---
+
 Parcelis Compose deployments and local development now target **PostgreSQL 18**. This is a breaking deployment change. PostgreSQL 18 cannot open PostgreSQL 16 data files; Prisma migrations do not convert them.
 
 ## Stay on PostgreSQL 16 until you are ready
@@ -64,7 +65,9 @@ node scripts/upgrade-postgres.mjs -- -f docker-compose-dev.yml
 node scripts/upgrade-postgres.mjs --execute --backup-dir ./postgres18-backup -- -f docker-compose-dev.yml
 ```
 
-If you originally used `docker compose -p NAME`, include the same `-p NAME` after `--` in every command. The backup directory must not already exist. Backups contain private application data: keep them secure and copy the completed backup off-host.
+If you originally used `docker compose -p NAME`, include the same `-p NAME` after `--` in every command. The backup directory must not already exist and must be within the directory
+from which you run the helper. Existing ancestor symlinks must also resolve within
+that directory; links to external backup locations are rejected. Backups contain private application data: keep them secure and copy the completed backup off-host.
 
 The helper:
 
