@@ -65,9 +65,13 @@ Use **Record payment** to add the first payment, or **Add payment** when the inv
 paid invoice is marked **PAID**; invoices with a remaining balance are shown as open, overdue, or partially paid as
 appropriate. Use **Add note** to attach internal notes to the invoice. **Delete** permanently removes an invoice and
 its charge lines. Delete is disabled for invoices with payment history, including invoices whose
-payments have all been reversed. Hover over **Delete** or move keyboard focus to the button
-to see a tooltip explaining why deletion is unavailable. Reversing a payment preserves its history and does not make
+payments have all been reversed. A visible message beside the invoice actions explains why deletion is unavailable.
+Reversing a payment preserves its history and does not make
 the invoice eligible for deletion.
+
+During an upgrade, reconciliation adds missing legacy payment entries when an invoice's recorded paid total exceeds
+its unreversed payment history. Existing payment records, including reversed entries, are preserved. Void invoices
+are excluded from reconciliation.
 
 To correct a recorded payment, use **Reverse payment** in the invoice's **Payment activity** section, enter a reason,
 and confirm. This action requires invoice deletion permission. The original payment remains visible with the reversal
