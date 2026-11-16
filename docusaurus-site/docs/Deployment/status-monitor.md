@@ -2,6 +2,25 @@
 title: Status monitor (POC)
 slug: /status-monitor
 ---
+
+The monitor serves HTTPS and requires a PEM private key and matching X.509
+certificate. Set `STATUS_TLS_KEY_FILE` and `STATUS_TLS_CERT_FILE` to their absolute
+paths in the monitor environment (or root `.env`). Use a certificate issued for the
+hostname clients will request. Restart the monitor after replacing either file.
+
+For local development, generate a short-lived self-signed certificate with OpenSSL
+from the repository root:
+
+```bash
+mkdir -p .parcelis/status-tls
+openssl req -x509 -nodes -newkey rsa:2048 -days 7 \
+  -keyout .parcelis/status-tls/key.pem -out .parcelis/status-tls/cert.pem \
+  -subj '/CN=localhost' -addext 'subjectAltName=DNS:localhost,IP:127.0.0.1'
+chmod 600 .parcelis/status-tls/key.pem
+export STATUS_TLS_KEY_FILE="$PWD/.parcelis/status-tls/key.pem"
+export STATUS_TLS_CERT_FILE="$PWD/.parcelis/status-tls/cert.pem"
+```
+
 Run the monitor as a separate process from the application:
 
 ```bash
@@ -16,8 +35,19 @@ layout or script changes. Service results update in place every 15 seconds.
 Each process restart resets the in-memory check history. Changes to compiled
 workspace packages still require rebuilding those packages.
 
-Open `http://localhost/status` through the local web proxy, or
-`http://127.0.0.1:40020` directly. `/status/api/status` returns the same sanitized
+Open `https://127.0.0.1:40020` directly using a client that trusts the
+certificate. For example, from the repository root:
+
+```bash
+curl --cacert .parcelis/status-tls/cert.pem https://127.0.0.1:40020/api/status
+```
+
+For `http://localhost/status` through the web proxy, set
+`STATUS_INTERNAL_URL=https://127.0.0.1:40020` in the web environment before building
+or starting it. With the local self-signed certificate, also set
+`NODE_EXTRA_CA_CERTS` to the absolute path of `cert.pem` **before starting the web
+Node process**. Keep certificate verification enabled. The proxy's fallback URL is
+HTTP, so the HTTPS upstream override is required. `/status/api/status` returns the same sanitized
 results as JSON through either origin. The monitor must be running separately.
 The page uses the sign-in background with the Parcelis full logo and heading on
 the left and one shared status card on the right. The heading sits beneath the
@@ -60,21 +90,29 @@ inside each API process for two seconds after completion; HTTP responses use
 `Cache-Control: no-store`. The existing `/api/v1/health` remains a liveness check.
 Worker readiness does not affect API readiness.
 
-Optional monitor environment variables:
+Monitor environment variables:
 
 | Variable                   | Default                                                                    |
 | -------------------------- | -------------------------------------------------------------------------- |
 | `STATUS_HOST`              | `127.0.0.1`                                                                |
+| `STATUS_TLS_KEY_FILE`      | Required; absolute PEM private-key path                                    |
+| `STATUS_TLS_CERT_FILE`     | Required; absolute PEM X.509 certificate-chain path                        |
 | `STATUS_PORT`              | `40020`                                                                    |
 | `STATUS_INTERNAL_URL`      | Web proxy upstream; `http://localhost:40020` (uses `STATUS_PORT` when set) |
-| `STATUS_WEB_URL`           | `http://localhost:30000/login`                                             |
+| `STATUS_WEB_URL`           | `https://localhost:30000/login`                                            |
 | `STATUS_API_URL`           | `http://localhost:40010/api/v1/health`                                     |
 | `STATUS_WEB_EXPECTED`      | `Parcelis`                                                                 |
 | `STATUS_AUTH_EMAIL`        | Unset; dedicated active monitoring account                                 |
 | `STATUS_AUTH_PASSWORD`     | Unset; monitoring account password                                         |
 | `STATUS_ALERT_WEBHOOK_URL` | Disabled; optional JSON POST on component status changes                   |
 
-Use actual selected dev ports or externally reachable deployment URLs. The monitor
+Use actual selected dev ports or externally reachable deployment URLs. For a
+plain HTTP local web listener, set `STATUS_WEB_URL=http://localhost:30000/login`;
+`pnpm status:dev` reads the selected HTTP URLs from `pnpm dev` runtime settings.
+The API probe defaults to HTTP, matching the API listener. Availability probes
+follow at most five redirects, including relative locations, within a single
+five-second deadline. Only the final successful response and expected content
+count as healthy; redirect loops and exhausted deadlines fail the probe. The monitor
 also needs the application's database, Redis, and S3 environment settings and bucket
 inspection permission, plus upload, download, and delete access under `healthchecks/`. Keep those credentials on the monitor server. The browser
 receives only component/check names, status, timing, static explanations, and recent samples.
@@ -124,7 +162,8 @@ stalls. Each canary uses a private Redis connection, bounded enqueue/state/resul
 reads, and bounded removal/forced-close cleanup. A query that exceeds the response deadline
 may continue until the database driver times out.
 
-For deployment, run the monitor on a separate host and put HTTPS in front of it.
+For deployment, run the monitor on a separate host with a trusted certificate.
+Configure any reverse proxy to connect over HTTPS and verify the monitor certificate.
 Co-locating it with Parcelis leaves shared host outages undetectable from that page.
 Durable history, incident editing, alert retries, and monitoring the monitor itself
 remain production follow-up work.
