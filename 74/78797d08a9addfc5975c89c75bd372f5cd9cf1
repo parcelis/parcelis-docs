@@ -1,0 +1,22 @@
+docusaurus-site/docs/Deployment/status-monitor.md
+  s_093f6731aeb937::t_76826beed8f936 5-23,38-50,98-99,102,109-115,165-166
+  s_093f6731aeb937::t_00da0a3f2409cb 93
+docusaurus-site/docs/Deployment/upgrade-postgresql.md
+  s_093f6731aeb937::t_76826beed8f936 5,68-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7478797d08a9addfc5975c89c75bd372f5cd9cf1",
+  "prompts": {},
+  "sessions": {
+    "s_093f6731aeb937": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e4aa-8806-7703-a626-64e5353e5ad2",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
