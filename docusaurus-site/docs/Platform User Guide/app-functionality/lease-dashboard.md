@@ -13,6 +13,12 @@ so it does not change occupancy or operating metrics. Restoring a lease returns 
 
 ## Add a Lease
 
+Rent, deposits, and resident allocations show the applicable currency and accept major units.
+For USD, enter `1200.50` for USD 1,200.50. Extra nonzero decimal places and amounts above the
+supported limit are rejected. A saved lease retains its currency when resumed or reviewed;
+an unsaved organization currency selection does not change its amounts. Saving monetary data
+permanently locks the organization's currency. No exchange-rate conversion is applied.
+
 1. Select **Lease** in the page header.
 2. Choose an available property unit. Parcelis immediately creates a draft lease, which is also visible on the
    Lease dashboard with a **Draft** status.

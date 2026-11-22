@@ -2,7 +2,8 @@
 title: Organization Settings
 slug: /organization-settings
 ---
-Open **Settings**, then select **Organization** and **General** to manage the active organization.
+Open **Settings → Organization → General** at `/settings/organization/general` to manage the active organization.
+Organization links retain the `/o/<organization-slug>` prefix. The previous organization settings address redirects to General.
 
 Organization administrators can update the organization name, address, phone number, contact email address, and URL slug. Saving a new
 slug updates the organization URL; use the new URL for subsequent navigation.
@@ -54,6 +55,28 @@ you can access.
 Missing fields show **Not provided**. If no contact details are configured, the panel shows
 **No contact information has been provided.** Organization administrators can update these details in
 the organization's General settings.
+
+### Currency
+
+**Currency** shows the saved operating currency as a code and name, initially **USD — US Dollar**.
+USD is currently the only supported option and is already selected; no selection is required.
+Available choices and permission to change currency come from the server. When additional currencies
+are supported, eligible owners and administrators can select one and choose **Update organization**.
+Members see the saved value read-only.
+
+Once monetary records use the currency, it becomes permanently read-only with an explanation.
+Clearing amounts or deleting records does not unlock it. Eligibility is checked again on save;
+if another session saves monetary data first, the rejection keeps your entered organization
+details available for retry. Failed saves do not activate an unsaved currency selection.
+Successful saves refresh the active currency, and switching organizations loads that workspace's currency.
+
+Enter unit rates, application income, rent, deposits, invoices, payments, and allocations in major
+units of the displayed currency. For USD, enter `12.34` for twelve dollars and thirty-four cents.
+Inputs reject excess nonzero decimal places and amounts above the supported storage limit rather
+than rounding them. Existing lease and invoice amounts retain their saved record currency.
+
+Currency is independent of browser locale, dates, timezone, addresses, and payment methods.
+Parcelis does not perform exchange-rate conversion or mixed-currency billing.
 
 ### API tokens
 
