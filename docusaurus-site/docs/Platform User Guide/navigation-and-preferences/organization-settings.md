@@ -4,6 +4,9 @@ slug: /organization-settings
 ---
 Open **Settings**, then select **Organization** and **General** to manage the active organization.
 
+Settings uses a shared panel with grouped navigation beside the current section. On smaller screens, use the
+**Settings section** selector to switch sections. Available sections follow your permissions.
+
 Organization administrators can update the organization name, address, phone number, contact email address, and URL slug. Saving a new
 slug updates the organization URL; use the new URL for subsequent navigation.
 
