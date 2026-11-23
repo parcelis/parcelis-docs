@@ -68,7 +68,9 @@ Once monetary records use the currency, it becomes permanently read-only with an
 Clearing amounts or deleting records does not unlock it. Eligibility is checked again on save;
 if another session saves monetary data first, the rejection keeps your entered organization
 details available for retry. Failed saves do not activate an unsaved currency selection.
-Successful saves refresh the active currency, and switching organizations loads that workspace's currency.
+Successful saves refresh the saved currency and monetary amounts. Switching organizations loads
+that workspace's currency before showing its monetary screens. If currency loading fails,
+select **Retry loading currency** to load it again; monetary screens remain hidden until it succeeds.
 
 Enter unit rates, application income, rent, deposits, invoices, payments, and allocations in major
 units of the displayed currency. For USD, enter `12.34` for twelve dollars and thirty-four cents.
