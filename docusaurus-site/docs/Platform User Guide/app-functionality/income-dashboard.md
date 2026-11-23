@@ -30,6 +30,12 @@ tenant scope; clearing property and unit filters keeps that restriction and its 
 
 ## Manual Invoices
 
+Invoice details, editing, and payment entry use the invoice's saved currency. Currency codes
+identify amounts, and balances retain meaningful fractions, including amounts below one major
+unit. For USD, enter `12.34` to record USD 12.34. Payment and allocation validation compares exact
+minor units; amounts with excess nonzero decimal places or above the supported limit are rejected.
+Organization currency changes do not convert existing invoices or payments.
+
 Select **New Invoice** to add a charge for an existing lease. Choose the property, unit, and lease term; the linked
 tenant is filled in automatically. With Invoices Create, you can create an invoice even when
 Tenants View is denied: the tenant field displays **Unavailable**, and the invoice uses the lease's

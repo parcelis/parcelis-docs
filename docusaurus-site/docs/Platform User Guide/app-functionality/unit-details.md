@@ -2,6 +2,10 @@
 title: Unit Details
 slug: /unit-details
 ---
+Unit market rates use the active organization's currency. Enter major units of the displayed
+currency, such as `950.25` for USD 950.25. Saving a market rate locks the organization's currency.
+Switching organizations refreshes the applicable currency; rates are not converted between currencies.
+
 Use the **Unit Details** step in the property drawer to review, add, edit, or remove units for a property. Select a unit from its property's unit list to open its dedicated unit page.
 
 ## Unit Page
