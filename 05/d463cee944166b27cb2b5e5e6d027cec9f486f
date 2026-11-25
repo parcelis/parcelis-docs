@@ -1,0 +1,21 @@
+docusaurus-site/sidebars.ts
+  s_7c211e2703e91b::t_071b53e28678e0 102
+docusaurus-site/docs/Deployment/installation-identity.md
+  s_7c211e2703e91b::t_071b53e28678e0 1-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "05d463cee944166b27cb2b5e5e6d027cec9f486f",
+  "prompts": {},
+  "sessions": {
+    "s_7c211e2703e91b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20f01-2763-7da1-b32c-be2019254789",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
