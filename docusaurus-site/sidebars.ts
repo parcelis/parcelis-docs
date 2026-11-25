@@ -99,6 +99,7 @@ const sidebars: SidebarsConfig = {
         "Deployment/deploy-with-docker-compose-single-image",
         "Deployment/upgrade-postgresql",
         "Deployment/email-configuration",
+        "Deployment/installation-identity",
         "Deployment/status-monitor",
         "Deployment/api-token-rollout"
       ]
