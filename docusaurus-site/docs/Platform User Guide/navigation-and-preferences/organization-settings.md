@@ -75,3 +75,17 @@ Tokens belong to the organization, independently of their creator, and grant ful
 access to supported organization REST operations without granular scopes. Read
 [API Authentication](../../API%20Reference/api-authentication.md) for access details, Bruno and curl
 setup, and troubleshooting.
+
+### Installation
+
+**Plan** shows the Free default until the installation has a verified license. Linking is optional. To link an installation:
+
+1. Open **Parcelis Portal**. As the tenant owner, generate a one-time activation code on the tenant page.
+2. In the self-hosted app, sign in as an installation administrator. Under **License**, enter the installation name, select an environment, then enter the activation code.
+3. Review **Installation URL**, then select **Activate license**. Parcelis shares the displayed URL with Parcelis Portal. **Plan** displays the verified tier after a successful activation.
+
+After changing the plan in Parcelis Portal, select **Refresh** to sync the tier and see the last successful sync time. If the Portal is unavailable, the previous verified plan stays in effect until the license expires. An expired or inactive license displays the Free default.
+
+After activation, **License key** appears masked. To disconnect, select **Unlink installation** and confirm. The app returns to the Free plan after the Portal confirms the disconnect. To link it again, generate a new activation code in the portal.
+
+Organization owners and administrators can open **Settings → Organization → Installation** to view the app version and copy the installation ID for support. See [Installation Identity](../../Deployment/installation-identity.md) for when the ID is created and how it is stored.
