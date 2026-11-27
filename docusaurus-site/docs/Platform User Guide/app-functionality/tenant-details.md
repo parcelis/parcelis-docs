@@ -39,3 +39,5 @@ its property detail page.
 For a shared lease, the row also lists every associated tenant, including the tenant whose profile you are viewing.
 Select a tenant's name to open their profile. Each lease has its own tenant list, so former co-tenants remain
 associated with the relevant lease history. Single-tenant rows do not show an additional tenant list.
+
+Amend a finalized lease to assign a successor before deleting its last current resident.
