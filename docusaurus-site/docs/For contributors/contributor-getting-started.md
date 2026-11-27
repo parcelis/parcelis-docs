@@ -26,13 +26,22 @@ pnpm --version
 ```bash
 pnpm install
 cp .env.example .env
-# Set a unique, 12+ character SEED_ADMIN_PASSWORD in .env
 docker compose -f docker-compose-dev.yml up -d
 pnpm db:generate
 pnpm db:migrate
-pnpm db:seed
-pnpm dev
 ```
+
+Choose one setup path on a new local database.
+
+- **Command line** — Set `SEED_ADMIN_EMAIL` to a new address. Set `SEED_ORGANIZATION_NAME` and a unique
+  `SEED_ADMIN_PASSWORD` of at least 12 characters in `.env`. Run `pnpm db:seed` for a bootstrap-only
+  workspace or `pnpm db:seed:demo` to include sample records. Start `pnpm dev` and sign in with the
+  seeded administrator.
+- **Registration UI** — Skip the seed commands and start `pnpm dev`. Select **Fresh install** for a
+  bootstrap-only workspace or **Demo install** for starter records, then create your account.
+
+Use an email other than `admin@parcelis.dev` for a new account. A historical migration already
+creates that account, and seed reruns leave existing passwords in place.
 
 `pnpm dev` runs the web app, API, and React Email previews with hot reload. Docker provides nginx,
 PostgreSQL, pgAdmin, MinIO, and the one-time MinIO initialization job.
@@ -66,14 +75,27 @@ pgAdmin uses `admin@parcelis.dev` / `parcelis`. The local Parcelis database is p
 
 ## Database workflow
 
-Prisma commands run through `pnpm db:*` load the root `.env`. If `DATABASE_URL` is unset, the API uses `postgresql://parcelis:parcelis@localhost:54320/parcelis?schema=public` only when `NODE_ENV` is `development` or `test`. Other environments require an explicit PostgreSQL URL; empty or invalid values fail startup.
+Prisma commands run through `pnpm db:*` load the root `.env`. If `DATABASE_URL` is unset, the API uses `postgresql://parcelis:parcelis@localhost:54320/parcelis?schema=public` only when `ENVIRONMENT` is `development` or `test` (falling back to `NODE_ENV` when `ENVIRONMENT` is unset). Other environments require an explicit PostgreSQL URL; empty or invalid values fail startup.
 
 After pulling schema changes, run:
 
 ```bash
 pnpm db:migrate
-pnpm db:seed
+pnpm db:generate
 ```
+
+Run `pnpm db:seed` for initial bootstrap or when an update explicitly requires a bootstrap
+seed-data change. When targeting a real environment, export its `DATABASE_URL` and ensure
+`SEED_DEMO_DATA` is unset or `false` in the shell and `.env`. The Prisma wrapper falls back to
+local PostgreSQL when no URL is configured. Reruns can update the bootstrap organization and
+administrator membership.
+
+Use `pnpm db:seed:demo` only on local or dedicated demo databases because it can overwrite or
+delete existing sample records. Setting `SEED_DEMO_DATA=true` also enables demo seeding.
+
+To use `admin@parcelis.dev` on your local database, set `ENVIRONMENT=development` and
+`SEED_ADMIN_EMAIL=admin@parcelis.dev` in `.env`, then run `pnpm db:seed`. The seed falls back to
+`NODE_ENV` when `ENVIRONMENT` is unset.
 
 ## Useful commands
 

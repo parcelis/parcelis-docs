@@ -15,10 +15,13 @@ If the link expires, try signing in and select **Resend verification email**.
 If sign-in is temporarily unavailable, the login page shows an error and keeps the form open. Contact your
 administrator so they can check the authentication service configuration.
 
-For local development, `pnpm db:seed` creates the administrator using `SEED_ADMIN_EMAIL`, which
-defaults to `admin@parcelis.dev`, and `SEED_ADMIN_PASSWORD`. Set the password to a unique value of
-at least 12 characters before running the seed command. Later seed runs do not replace the
-administrator password.
+If you create your account with **Demo install**, sign in with that account in the same browser
+to open the demo welcome page. Select **Continue setup** to open Properties. The page also
+links to Tenants, Leases, and Income, where you can manage the sample records and invoices.
+
+For local development, `pnpm db:seed` creates a bootstrap administrator if the account does not
+already exist. Set `SEED_ADMIN_EMAIL` to an unused address and set `SEED_ADMIN_PASSWORD` to a unique
+password of at least 12 characters. Seed reruns keep existing administrator passwords.
 
 Sign out is available from the **My Account** menu at the bottom of the sidebar. Signing out clears this browser's session cookie and signs out other open tabs in the same browser.
 
