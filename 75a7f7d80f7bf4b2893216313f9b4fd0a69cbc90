@@ -1,0 +1,24 @@
+docusaurus-site/package.json
+  s_23872814304f0b::t_72b1e5661d9e48 5
+package.json
+  s_23872814304f0b::t_72b1e5661d9e48 3,5
+  s_23872814304f0b::t_a0c29a814895bb 4,6
+docusaurus-site/pnpm-workspace.yaml
+  s_23872814304f0b::t_72b1e5661d9e48 4-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "75a7f7d80f7bf4b2893216313f9b4fd0a69cbc90",
+  "prompts": {},
+  "sessions": {
+    "s_23872814304f0b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18b19-f184-7c13-b177-5f7d6dc81657",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}

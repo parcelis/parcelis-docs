@@ -1,0 +1,19 @@
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/organization-settings.md"
+  s_69146205a97fec::t_c6989cfc56144f 74-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f836b5c82efaefffe71e59a893c9518fdc2e23b0",
+  "prompts": {},
+  "sessions": {
+    "s_69146205a97fec": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a205f1-da0f-71b2-b684-a460f6ad1f5f",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}

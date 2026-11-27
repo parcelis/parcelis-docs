@@ -1,0 +1,448 @@
+docusaurus-site/docs/api/tags-create.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/tags-list.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/getting-started/first-steps.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-19
+docusaurus-site/docs/api/tenants-complete-image-upload.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/tenants-complete-image-upload.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/Deployment/deploy-with-docker-compose.md
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-102
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/index.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-6
+docusaurus-site/docs/api/tenants-delete-image.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/src/theme/Footer/index.tsx
+  s_017047ec5e11ef::t_b15df3b881dc84 1-27,29-56
+  s_017047ec5e11ef::t_09b9e34ba8351a 28
+"docusaurus-site/docs/Platform User Guide/app-functionality/manage-a-tenant.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-54
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/users.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-30
+docusaurus-site/docs/api/properties-delete-image.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/app-functionality/add-a-tenant.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-43
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/collapse-navigation.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-7
+docusaurus-site/docs/api/properties-delete.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/units-by-id.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/tsconfig.json
+  s_017047ec5e11ef::t_f84c119f09d851 7-10
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-6,11-14
+docusaurus-site/docs/api/properties-delete-image.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/static/img/undraw_docusaurus_mountain.svg
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-171
+docusaurus-site/docs/api/tenants-complete-image-upload.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-complete-image-upload.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/units-create.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/src/theme/Footer/styles.module.css
+  s_017047ec5e11ef::t_b15df3b881dc84 1-92
+docusaurus-site/package.json
+  s_017047ec5e11ef::t_f84c119f09d851 24-25,28-30,34,37-39
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-4,6-7,9-22,31-33,35-36,40-52,54-55
+  s_017047ec5e11ef::t_b0f467ed68e9c0 5
+  s_017047ec5e11ef::t_9e41e3acdf1004 8
+  s_017047ec5e11ef::t_2d795f24e2cc42 23
+  s_017047ec5e11ef::t_4b84ed5348c038 53
+  s_017047ec5e11ef::t_a52af7fcb96092 26-27
+"docusaurus-site/docs/Platform User Guide/getting-started/portfolio-dashboard.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-21
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/notifications.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-9
+docusaurus-site/docs/api/properties-archive.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/amenities-update.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-archive.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-archive.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-reactivate.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/app-functionality/unit-details.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-72
+"docusaurus-site/docs/Platform User Guide/app-functionality/tenant-directory.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-38
+docusaurus-site/docs/api/amenities-update.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/app-functionality/lease-details.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-56
+docusaurus-site/docs/Deployment/api-token-rollout.md
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-145
+docusaurus-site/README.md
+  s_017047ec5e11ef::t_1934b37fb06d3c 8,11,16,24,53-72
+  s_017047ec5e11ef::t_2ec3565d518c56 31-52
+  s_017047ec5e11ef::t_ff0dbb429441c8 86-110
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-7,9-10,12-15,17-23,25-30
+  s_017047ec5e11ef::t_be6604c963f266 83,111-116
+  s_017047ec5e11ef::t_70b7f5b981fa5d 73-82,84-85
+docusaurus-site/docs/api/amenities-list.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/amenities-update.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/properties-delete-image.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/tags-create.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-inactivate.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/units-by-id.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/For contributors/architecture.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-132
+docusaurus-site/docs/api/units-list.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/static/img/favicon.svg
+  s_017047ec5e11ef::t_031b2f89a15a0c 1-17
+docusaurus-site/docs/api/unit-options-list.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/tenants-create-image-upload-url.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/units-list.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/app-functionality/maintenance.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-41
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/profile.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-13
+docusaurus-site/docs/api/properties-delete.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/For contributors/lease-rent-schedule.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-28
+docusaurus-site/docs/api/properties-inactivate.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-list.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/units-update.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/For contributors/end-to-end-testing.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-62
+docusaurus-site/docs/api/properties-archive.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/static/img/github.svg
+  s_017047ec5e11ef::t_4c110084e87200 1
+docusaurus-site/docs/api/units-list.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/static/img/discord.svg
+  s_017047ec5e11ef::t_4c110084e87200 1
+docusaurus-site/docs/api/amenities-list.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-59
+docusaurus-site/docs/api/units-by-id.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/properties-complete-image-upload.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-list.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-create-image-upload-url.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/src/pages/markdown-page.mdx
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-7
+docusaurus-site/docs/api/tags-list.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-by-id.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/.gitignore
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-20
+docusaurus-site/docs/api/tenants-create-image-upload-url.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/units-delete.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/units-update.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/blog/2019-05-29-long-blog-post.mdx
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-44
+"docusaurus-site/docs/Platform User Guide/app-functionality/manage-a-property.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-43
+docusaurus-site/static/img/undraw_docusaurus_react.svg
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-170
+docusaurus-site/docs/api/properties-reactivate.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/pnpm-workspace.yaml
+  s_017047ec5e11ef::t_472b9bbd32dfac 1
+  s_017047ec5e11ef::t_4b84ed5348c038 7-10
+  s_017047ec5e11ef::t_762e5b29666087 3-4,6
+  s_017047ec5e11ef::t_96535d2e98de53 11-13
+  s_017047ec5e11ef::t_710c30a6ead120 2,5
+docusaurus-site/docs/api/tenants-delete-image.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/For contributors/contributor-getting-started.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-87
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/email-settings.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-39
+docusaurus-site/src/components/HomepageFeatures/styles.module.css
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-11
+"docusaurus-site/docs/Platform User Guide/core-concepts/unit.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-7
+docusaurus-site/docs/api/properties-complete-image-upload.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-delete.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/app-functionality/lease-dashboard.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-45
+"docusaurus-site/docs/Platform User Guide/app-functionality/property-directory.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-28
+"docusaurus-site/docs/Platform User Guide/app-functionality/tenant-details.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-37
+docusaurus-site/static/img/parcelis.svg
+  s_017047ec5e11ef::t_4c110084e87200 1
+docusaurus-site/docs/api/units-create.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+"docusaurus-site/docs/For contributors/database-erd.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-400
+"docusaurus-site/docs/Platform User Guide/core-concepts/tenant.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-16
+docusaurus-site/docs/api/properties-create.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/properties-create-image-upload-url.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docusaurus.config.ts
+  s_017047ec5e11ef::t_9dd16487fe9070 56-58
+  s_017047ec5e11ef::t_09b9e34ba8351a 73
+  s_8890f936f93fe4::t_240370ae02b590 9-10,15-16,48,61
+  s_017047ec5e11ef::t_a52af7fcb96092 4,23-33,35-40,47
+  s_017047ec5e11ef::t_0e4654857b2353 72,74
+  s_017047ec5e11ef::t_9e41e3acdf1004 7,14,34
+  s_017047ec5e11ef::t_691907a54156f7 66-67
+  s_017047ec5e11ef::t_dd7d3ba05d041f 11,62-65,68
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-3,5,8,12,17,22,41-46,49,51-55,60,69,75-76,78-81
+  s_017047ec5e11ef::t_ce95e2eb5448be 6,13
+  s_017047ec5e11ef::t_08f660478635c3 70-71
+  s_8890f936f93fe4::t_0aedb4d34b0493 18-21
+  s_8890f936f93fe4::t_f192897735bb19 50
+  s_8890f936f93fe4::t_c29c024c99cff8 77
+  s_017047ec5e11ef::t_5f70a8cf67de1a 59
+docusaurus-site/docs/api/tenants-delete-image.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/units-by-id.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-update.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/properties-complete-image-upload.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/static/img/logo.svg
+  s_8890f936f93fe4::t_4883169e9ed7f6 1
+"docusaurus-site/docs/Platform User Guide/core-concepts/index.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-6
+docusaurus-site/docs/api/health.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-59
+docusaurus-site/docs/api/properties-reactivate.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/tags-create.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/unit-options-list.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-update-notes.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/static/img/undraw_docusaurus_tree.svg
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-40
+"docusaurus-site/docs/Platform User Guide/app-functionality/add-a-property.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-45
+docusaurus-site/docs/api/properties-update-notes.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+"docusaurus-site/docs/Platform User Guide/getting-started/index.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-6
+docusaurus-site/docs/api/units-create.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/parcelis-api.info.mdx
+  s_017047ec5e11ef::t_c641476fb2ded5 24
+  s_017047ec5e11ef::t_d07c97a65c276b 1-23,25-88
+docusaurus-site/docs/api/units-create.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-create.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/app-functionality/property-details.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-27
+docusaurus-site/docs/api/amenities-list.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-list.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-59
+docusaurus-site/docs/api/tenants-create-image-upload-url.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/organization-settings.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-55
+"docusaurus-site/docs/Platform User Guide/getting-started/sign-in.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-37
+docusaurus-site/docs/api/properties-update.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/blog/2021-08-01-mdx-blog-post.mdx
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-24
+docusaurus-site/docs/api/tenants-delete-image.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/units-delete.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/app-functionality/index.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-6
+docusaurus-site/docs/api/units-update.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/static/img/code.svg
+  s_017047ec5e11ef::t_08f660478635c3 1
+docusaurus-site/docs/Deployment/upgrade-postgresql.md
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-120
+docusaurus-site/static/img/book-open.svg
+  s_017047ec5e11ef::t_08f660478635c3 1
+docusaurus-site/docs/Deployment/deploy-with-docker.md
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-124
+docusaurus-site/docs/Deployment/status-monitor.md
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-133
+docusaurus-site/docs/api/properties-inactivate.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/blog/2021-08-26-welcome/index.mdx
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-29
+docusaurus-site/docs/Deployment/email-configuration.md
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-82
+"docusaurus-site/docs/For contributors/commit-conventions.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-52
+README.md
+  s_8890f936f93fe4::t_eb4bfcc90748fa 3,5
+  s_017047ec5e11ef::t_2ec3565d518c56 4
+docusaurus-site/docs/api/units-delete.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/static/openapi/parcelis.openapi.json
+  s_017047ec5e11ef::t_2d8980312a740a 1-3274
+docusaurus-site/docs/api/health.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/keyboard-shortcuts.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-13
+docusaurus-site/docs/api/tenants-complete-image-upload.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/unit-options-list.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-59
+docusaurus-site/docs/api/units-delete.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/src/components/HomepageFeatures/index.tsx
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-71
+docusaurus-site/docs/api/units-update.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-delete.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/properties-update.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/API Reference/api-authentication.md"
+  s_017047ec5e11ef::t_976d57d4769746 33
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-32,34-112
+docusaurus-site/docs/Deployment/deploy-with-docker-compose-single-image.md
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-162
+"docusaurus-site/docs/Platform User Guide/app-functionality/income-dashboard.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-54
+docusaurus-site/docs/api/tags-create.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/blog/tags.yml
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-19
+docusaurus-site/src/css/custom.css
+  s_017047ec5e11ef::t_691907a54156f7 2,73-76
+  s_017047ec5e11ef::t_83239845295ca8 3,6-22,27-30,32-36,40-72,77-78
+  s_017047ec5e11ef::t_08f660478635c3 107-114
+  s_017047ec5e11ef::t_a834f253a56efb 106,121-125
+  s_8890f936f93fe4::t_4883169e9ed7f6 1,31,37-39
+  s_017047ec5e11ef::t_0e4654857b2353 79-105
+  s_017047ec5e11ef::t_4379e8bc129b18 115-120
+  s_017047ec5e11ef::t_5aeb2d66d782d7 4-5,23-25
+  s_017047ec5e11ef::t_be6604c963f266 26
+docusaurus-site/sidebars.ts
+  s_017047ec5e11ef::t_976d57d4769746 2,128-129
+  s_017047ec5e11ef::t_72114ca41bbcc3 5-104,106-127,130-132
+  s_8890f936f93fe4::t_4883169e9ed7f6 1,3-4,105,133-135
+docusaurus-site/docs/api/properties-create.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/app-functionality/detail-page-actions.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-17
+docusaurus-site/docs/api/properties-inactivate.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-reactivate.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-update.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/tags-list.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-59
+docusaurus-site/docs/api/amenities-update.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-create-image-upload-url.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/src/pages/index.module.css
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-23
+"docusaurus-site/docs/Platform User Guide/core-concepts/property.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-7
+"docusaurus-site/docs/Platform User Guide/pricing.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-10
+docusaurus-site/docs/api/properties-create.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+.gitignore
+  s_017047ec5e11ef::t_56609d714b3ce2 2-3
+docusaurus-site/docs/api/health.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/blog/2019-05-28-first-blog-post.mdx
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-12
+"docusaurus-site/docs/Platform User Guide/core-concepts/maintenance-ticket.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-9
+"docusaurus-site/docs/Platform User Guide/core-concepts/notes.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-17
+"docusaurus-site/docs/Platform User Guide/core-concepts/portfolio.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-5
+docusaurus-site/docs/api/properties-delete-image.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-update-notes.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/sidebar.ts
+  s_017047ec5e11ef::t_d07c97a65c276b 1-245
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/theme.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-7
+docusaurus-site/docs/api/properties-by-id.RequestSchema.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/src/pages/index.tsx
+  s_8890f936f93fe4::t_4883169e9ed7f6 1,4-5,7
+  s_017047ec5e11ef::t_f1ebcb13292184 2-3,6
+"docusaurus-site/docs/Platform User Guide/core-concepts/lease.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-16
+docusaurus-site/docs/api/units-list.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/tenants-create-image-upload-url.ParamsDetails.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+"docusaurus-site/docs/Platform User Guide/platform-user-guide.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-21
+docusaurus-site/docs/api/properties-by-id.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/sidebar.md"
+  s_017047ec5e11ef::t_72114ca41bbcc3 1-25
+docusaurus-site/blog/authors.yml
+  s_8890f936f93fe4::t_4883169e9ed7f6 1-25
+docusaurus-site/docs/api/properties-by-id.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/docs/api/properties-create-image-upload-url.api.mdx
+  s_017047ec5e11ef::t_d07c97a65c276b 1-69
+docusaurus-site/docs/api/properties-update-notes.StatusCodes.json
+  s_017047ec5e11ef::t_d07c97a65c276b 1
+docusaurus-site/pnpm-lock.yaml
+  s_017047ec5e11ef::t_f4ff58f1bdd60f 1-15311
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6d55490d4dac614d6ce9ff44d4de606522077396",
+  "prompts": {},
+  "sessions": {
+    "s_017047ec5e11ef": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a184f5-732d-7523-85bf-3595febfd20e",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    },
+    "s_8890f936f93fe4": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "09667705-75ef-4849-a25e-e12b88f3da49",
+        "model": "unknown"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}

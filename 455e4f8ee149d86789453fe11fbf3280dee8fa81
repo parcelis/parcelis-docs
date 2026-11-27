@@ -1,0 +1,24 @@
+docusaurus-site/docs/Deployment/deploy-with-docker-compose.md
+  s_1c8dc1d316ddde::t_553bf6c74fccea 30-31,62,136
+  s_1c8dc1d316ddde::t_dd08aa6b8c9788 53,137,145-151
+  s_1c8dc1d316ddde::t_1ab9e7089bda4d 46-52,152
+  s_1c8dc1d316ddde::t_f48b0c4a1e7115 153
+docusaurus-site/docs/Deployment/deploy-with-docker-compose-single-image.md
+  s_1c8dc1d316ddde::t_1ab9e7089bda4d 114,119,121-132
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "455e4f8ee149d86789453fe11fbf3280dee8fa81",
+  "prompts": {},
+  "sessions": {
+    "s_1c8dc1d316ddde": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c0dc-9049-71d2-98cc-da8be58cfc67",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}

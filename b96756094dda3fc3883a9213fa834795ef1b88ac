@@ -1,0 +1,227 @@
+"docs/API Reference/_order.yaml"
+  s_c0b6530ce4536e::t_24f7bbc06bf182 1-2
+"docs/API Reference/api-authentication.md"
+  s_c0b6530ce4536e::t_b590a125538474 1-113
+docs/Deployment/_order.yaml
+  s_c0b6530ce4536e::t_dfcc03f5d49235 1-7
+docs/Deployment/api-token-rollout.md
+  s_c0b6530ce4536e::t_d4956f8652f4a5 1-146
+docs/Deployment/deploy-with-docker-compose-single-image.md
+  s_c0b6530ce4536e::t_b8227df9da900c 1-163
+docs/Deployment/deploy-with-docker-compose.md
+  s_c0b6530ce4536e::t_70840cf0a1f059 1-103
+docs/Deployment/deploy-with-docker.md
+  s_c0b6530ce4536e::t_d04f3f9c68ab54 1-125
+docs/Deployment/email-configuration.md
+  s_c0b6530ce4536e::t_79fad8ac73636f 1-83
+docs/Deployment/status-monitor.md
+  s_c0b6530ce4536e::t_5f5fc27fa469ec 1-134
+docs/Deployment/upgrade-postgresql.md
+  s_c0b6530ce4536e::t_a9785fb8abef4f 1-121
+"docs/For contributors/_order.yaml"
+  s_c0b6530ce4536e::t_32ae93b5e23830 1-6
+"docs/For contributors/architecture.md"
+  s_c0b6530ce4536e::t_3da1b28414973a 1-133
+"docs/For contributors/commit-conventions.md"
+  s_c0b6530ce4536e::t_881f542eadb7b9 1-53
+"docs/For contributors/contributor-getting-started.md"
+  s_c0b6530ce4536e::t_c98809159de56d 1-88
+"docs/For contributors/database-erd.md"
+  s_c0b6530ce4536e::t_d776314b6447ed 1-401
+"docs/For contributors/end-to-end-testing.md"
+  s_c0b6530ce4536e::t_0d2ff71188e285 1-63
+"docs/For contributors/lease-rent-schedule.md"
+  s_c0b6530ce4536e::t_77ac15cf9eb690 1-29
+"docs/Platform User Guide/_order.yaml"
+  s_c0b6530ce4536e::t_5e7f057d74f309 1-6
+"docs/Platform User Guide/app-functionality/_order.yaml"
+  s_c0b6530ce4536e::t_2850c195edc9b4 1-14
+"docs/Platform User Guide/app-functionality/add-a-property.md"
+  s_c0b6530ce4536e::t_ce37416d055daa 1-46
+"docs/Platform User Guide/app-functionality/add-a-tenant.md"
+  s_c0b6530ce4536e::t_b3c59c23d0d08c 1-44
+"docs/Platform User Guide/app-functionality/detail-page-actions.md"
+  s_c0b6530ce4536e::t_4f134343f28771 1-18
+"docs/Platform User Guide/app-functionality/income-dashboard.md"
+  s_c0b6530ce4536e::t_76f481ea036d7d 1-55
+"docs/Platform User Guide/app-functionality/index.md"
+  s_c0b6530ce4536e::t_e32dd889105723 2-4
+"docs/Platform User Guide/app-functionality/lease-dashboard.md"
+  s_c0b6530ce4536e::t_d39a3f9a518e31 1-46
+"docs/Platform User Guide/app-functionality/lease-details.md"
+  s_c0b6530ce4536e::t_258a0cb2ef452d 1-57
+"docs/Platform User Guide/app-functionality/maintenance.md"
+  s_c0b6530ce4536e::t_61dbeb3722f233 1-42
+"docs/Platform User Guide/app-functionality/manage-a-property.md"
+  s_c0b6530ce4536e::t_9f799c714b8321 1-44
+"docs/Platform User Guide/app-functionality/manage-a-tenant.md"
+  s_c0b6530ce4536e::t_effabfb64fec48 1-55
+"docs/Platform User Guide/app-functionality/property-details.md"
+  s_c0b6530ce4536e::t_4b60a9febf9d97 2-4,6,8,10,12,14,16,18,20,22,24,26-28
+"docs/Platform User Guide/app-functionality/property-directory.md"
+  s_c0b6530ce4536e::t_0db206f62cb750 1-29
+"docs/Platform User Guide/app-functionality/tenant-details.md"
+  s_c0b6530ce4536e::t_f11e3800d04bf7 1-38
+"docs/Platform User Guide/app-functionality/tenant-directory.md"
+  s_c0b6530ce4536e::t_4fa173e613ddf0 1-39
+"docs/Platform User Guide/app-functionality/unit-details.md"
+  s_c0b6530ce4536e::t_1efe074a960a8d 2-4,6,8,10,12,14,16-22,24-25,27,29,31,33,35-37,39,41-43,45,47,49-51,53,55,57,59-63,65,67,69,71,73
+"docs/Platform User Guide/core-concepts/_order.yaml"
+  s_c0b6530ce4536e::t_8dad7501a8e647 1-7
+"docs/Platform User Guide/core-concepts/index.md"
+  s_c0b6530ce4536e::t_20a64eddd5486f 2-4
+"docs/Platform User Guide/core-concepts/lease.md"
+  s_c0b6530ce4536e::t_c84ad1a8d3d428 1-17
+"docs/Platform User Guide/core-concepts/maintenance-ticket.md"
+  s_c0b6530ce4536e::t_4bc717b6b07e47 1-10
+"docs/Platform User Guide/core-concepts/notes.md"
+  s_c0b6530ce4536e::t_87a3ce6916def6 1-18
+"docs/Platform User Guide/core-concepts/portfolio.md"
+  s_c0b6530ce4536e::t_8d4a0be777a29a 1-6
+"docs/Platform User Guide/core-concepts/property.md"
+  s_c0b6530ce4536e::t_030c86b2dfeae7 1-8
+"docs/Platform User Guide/core-concepts/tenant.md"
+  s_c0b6530ce4536e::t_e1bd8d6943c673 1-17
+"docs/Platform User Guide/core-concepts/unit.md"
+  s_c0b6530ce4536e::t_47767f12a62668 1-8
+"docs/Platform User Guide/getting-started/_order.yaml"
+  s_c0b6530ce4536e::t_43061543935076 1-3
+"docs/Platform User Guide/getting-started/first-steps.md"
+  s_c0b6530ce4536e::t_c18cfddc3d12f7 2-3,6,8,10,12-20
+"docs/Platform User Guide/getting-started/index.md"
+  s_c0b6530ce4536e::t_f6dea7571752ad 2-4
+"docs/Platform User Guide/getting-started/portfolio-dashboard.md"
+  s_c0b6530ce4536e::t_6e26c71703968c 2-4,6,8,17,19,21-22
+"docs/Platform User Guide/getting-started/sign-in.md"
+  s_c0b6530ce4536e::t_95937f201570a4 1-38
+"docs/Platform User Guide/navigation-and-preferences/_order.yaml"
+  s_c0b6530ce4536e::t_fb15e1fcc7c9bc 1-9
+"docs/Platform User Guide/navigation-and-preferences/collapse-navigation.md"
+  s_c0b6530ce4536e::t_8043729137ba56 1-8
+"docs/Platform User Guide/navigation-and-preferences/email-settings.md"
+  s_c0b6530ce4536e::t_d72f52d802069a 1-40
+"docs/Platform User Guide/navigation-and-preferences/index.md"
+  s_c0b6530ce4536e::t_0e88118c9d0942 1-4
+"docs/Platform User Guide/navigation-and-preferences/keyboard-shortcuts.md"
+  s_c0b6530ce4536e::t_62318096864557 1-14
+"docs/Platform User Guide/navigation-and-preferences/notifications.md"
+  s_c0b6530ce4536e::t_cb09e0f1ec280e 1-10
+"docs/Platform User Guide/navigation-and-preferences/organization-settings.md"
+  s_c0b6530ce4536e::t_9295da780692da 1-56
+"docs/Platform User Guide/navigation-and-preferences/profile.md"
+  s_c0b6530ce4536e::t_4185079e22f181 1-14
+"docs/Platform User Guide/navigation-and-preferences/sidebar.md"
+  s_c0b6530ce4536e::t_1274a1bb69f26f 1-27
+"docs/Platform User Guide/navigation-and-preferences/theme.md"
+  s_c0b6530ce4536e::t_99ae95eece2543 2-4,6,8
+"docs/Platform User Guide/navigation-and-preferences/users.md"
+  s_c0b6530ce4536e::t_b084f467f1d6df 1-31
+"docs/Platform User Guide/platform-user-guide.md"
+  s_c0b6530ce4536e::t_5615807ac700b4 1-22
+"docs/Platform User Guide/pricing.md"
+  s_c0b6530ce4536e::t_1fc7a1457b7008 3,7,9,11
+docs/_order.yaml
+  s_c0b6530ce4536e::t_f24d3f2dc0a998 1-4
+"reference/Parcelis API/_order.yaml"
+  s_c0b6530ce4536e::t_67d805cd27721a 1-7
+"reference/Parcelis API/amenities/_order.yaml"
+  s_c0b6530ce4536e::t_174e15157adeb3 1-2
+"reference/Parcelis API/amenities/amenities-list.md"
+  s_c0b6530ce4536e::t_0ffa34ea9aaebd 1-6
+"reference/Parcelis API/amenities/amenities-update.md"
+  s_c0b6530ce4536e::t_73e8c73845fdfa 1-6
+"reference/Parcelis API/amenities/index.md"
+  s_c0b6530ce4536e::t_1288f9b93ced47 1-4
+"reference/Parcelis API/properties/_order.yaml"
+  s_c0b6530ce4536e::t_cbb420c88d3f6e 1-12
+"reference/Parcelis API/properties/index.md"
+  s_c0b6530ce4536e::t_6433adf2de150e 1-4
+"reference/Parcelis API/properties/properties-archive.md"
+  s_c0b6530ce4536e::t_041d45090e5576 1-6
+"reference/Parcelis API/properties/properties-byid.md"
+  s_c0b6530ce4536e::t_5d05309d15e9bf 1-6
+"reference/Parcelis API/properties/properties-completeimageupload.md"
+  s_c0b6530ce4536e::t_09ae0dc9a40d5c 1-6
+"reference/Parcelis API/properties/properties-create.md"
+  s_c0b6530ce4536e::t_3d55c1c2d49bcf 1-6
+"reference/Parcelis API/properties/properties-createimageuploadurl.md"
+  s_c0b6530ce4536e::t_4aa3dda4104951 1-6
+"reference/Parcelis API/properties/properties-delete.md"
+  s_c0b6530ce4536e::t_5d9baa2596f2d5 1-6
+"reference/Parcelis API/properties/properties-deleteimage.md"
+  s_c0b6530ce4536e::t_ca5362fe305406 1-6
+"reference/Parcelis API/properties/properties-inactivate.md"
+  s_c0b6530ce4536e::t_52fe97e2ccd488 1-6
+"reference/Parcelis API/properties/properties-list.md"
+  s_c0b6530ce4536e::t_13029a48c1fba7 1-6
+"reference/Parcelis API/properties/properties-reactivate.md"
+  s_c0b6530ce4536e::t_1ff3e636b12219 1-6
+"reference/Parcelis API/properties/properties-update.md"
+  s_c0b6530ce4536e::t_217bf66910e60f 1-6
+"reference/Parcelis API/properties/properties-updatenotes.md"
+  s_c0b6530ce4536e::t_e2361f4b987350 1-6
+"reference/Parcelis API/system/_order.yaml"
+  s_c0b6530ce4536e::t_a50f6501e0de91 1
+"reference/Parcelis API/system/health.md"
+  s_c0b6530ce4536e::t_79cc5d3d5a2cb4 1-6
+"reference/Parcelis API/system/index.md"
+  s_c0b6530ce4536e::t_ad711dff35a859 1-4
+"reference/Parcelis API/tags/_order.yaml"
+  s_c0b6530ce4536e::t_1684a85968d459 1-2
+"reference/Parcelis API/tags/index.md"
+  s_c0b6530ce4536e::t_7c55c3d759a7c1 1-4
+"reference/Parcelis API/tags/tags-create.md"
+  s_c0b6530ce4536e::t_55fe60c929c801 1-6
+"reference/Parcelis API/tags/tags-list.md"
+  s_c0b6530ce4536e::t_4e91a292f2cde5 1-6
+"reference/Parcelis API/tenants/_order.yaml"
+  s_c0b6530ce4536e::t_e49abb36c5327a 1-3
+"reference/Parcelis API/tenants/index.md"
+  s_c0b6530ce4536e::t_8453add68dcb9c 1-4
+"reference/Parcelis API/tenants/tenants-completeimageupload.md"
+  s_c0b6530ce4536e::t_ec3ea0e2e75c8b 1-6
+"reference/Parcelis API/tenants/tenants-createimageuploadurl.md"
+  s_c0b6530ce4536e::t_9c58ec37ff1515 1-6
+"reference/Parcelis API/tenants/tenants-deleteimage.md"
+  s_c0b6530ce4536e::t_b36ce58ddd3c05 1-6
+"reference/Parcelis API/unit-options/_order.yaml"
+  s_c0b6530ce4536e::t_0c51a3475c5b7c 1
+"reference/Parcelis API/unit-options/index.md"
+  s_c0b6530ce4536e::t_a7baf6cda300dc 1-4
+"reference/Parcelis API/unit-options/unitoptions-list.md"
+  s_c0b6530ce4536e::t_b233fd352221ed 1-6
+"reference/Parcelis API/units/_order.yaml"
+  s_c0b6530ce4536e::t_ac0b198b326cbf 1-5
+"reference/Parcelis API/units/index.md"
+  s_c0b6530ce4536e::t_4a20c32961f1cf 1-4
+"reference/Parcelis API/units/units-byid.md"
+  s_c0b6530ce4536e::t_1774fb6f27aec6 1-6
+"reference/Parcelis API/units/units-create.md"
+  s_c0b6530ce4536e::t_8488da75cdcc18 1-6
+"reference/Parcelis API/units/units-delete.md"
+  s_c0b6530ce4536e::t_ca4c7c3024efdc 1-6
+"reference/Parcelis API/units/units-list.md"
+  s_c0b6530ce4536e::t_04230e8c467b00 1-6
+"reference/Parcelis API/units/units-update.md"
+  s_c0b6530ce4536e::t_0609e08a709846 1-6
+reference/_order.yaml
+  s_c0b6530ce4536e::t_f8670e82b61e7c 1
+reference/parcelis.openapi.json
+  s_c0b6530ce4536e::t_5474a3e9c147a7 1-3274
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b96756094dda3fc3883a9213fa834795ef1b88ac",
+  "prompts": {},
+  "sessions": {
+    "s_c0b6530ce4536e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a183bb-8f22-73b0-99a8-da93d06e884d",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}

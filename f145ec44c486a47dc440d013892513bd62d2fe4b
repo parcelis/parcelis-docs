@@ -1,0 +1,19 @@
+docusaurus-site/pnpm-workspace.yaml
+  s_017047ec5e11ef::t_54df00860ca736 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f145ec44c486a47dc440d013892513bd62d2fe4b",
+  "prompts": {},
+  "sessions": {
+    "s_017047ec5e11ef": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a184f5-732d-7523-85bf-3595febfd20e",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}

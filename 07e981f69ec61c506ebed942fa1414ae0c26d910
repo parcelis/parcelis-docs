@@ -1,0 +1,21 @@
+docusaurus-site/docs/Deployment/installation-identity.md
+  s_c2cef291d643c3::t_8b7f4b310f6808 14-20,30-34,36,40
+"docusaurus-site/docs/Platform User Guide/navigation-and-preferences/organization-settings.md"
+  s_c2cef291d643c3::t_73d3a25840aef6 78-91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "07e981f69ec61c506ebed942fa1414ae0c26d910",
+  "prompts": {},
+  "sessions": {
+    "s_c2cef291d643c3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a21136-7b20-7870-8f20-3f4043d23d52",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}

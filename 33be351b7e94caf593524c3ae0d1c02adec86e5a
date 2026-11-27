@@ -1,0 +1,19 @@
+wrangler.jsonc
+  s_23872814304f0b::t_7b71d1655d5e8e 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "33be351b7e94caf593524c3ae0d1c02adec86e5a",
+  "prompts": {},
+  "sessions": {
+    "s_23872814304f0b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18b19-f184-7c13-b177-5f7d6dc81657",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}

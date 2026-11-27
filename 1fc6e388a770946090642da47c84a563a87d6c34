@@ -1,0 +1,27 @@
+"docusaurus-site/docs/Platform User Guide/app-functionality/income-dashboard.md"
+  s_7c58a1c34d76cf::t_2f92aad40f9cae 9-12,14-38,76-82,92-93,115,120
+  s_7c58a1c34d76cf::t_c273c781c88cf5 43-44,46-49,51-52
+"docusaurus-site/docs/Platform User Guide/app-functionality/property-details.md"
+  s_7c58a1c34d76cf::t_2f92aad40f9cae 28-35
+"docusaurus-site/docs/Platform User Guide/app-functionality/property-directory.md"
+  s_7c58a1c34d76cf::t_2f92aad40f9cae 43-48
+  s_7c58a1c34d76cf::t_9218a6e478b280 42
+"docusaurus-site/docs/Platform User Guide/app-functionality/tenant-details.md"
+  s_7c58a1c34d76cf::t_2f92aad40f9cae 31-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1fc6e388a770946090642da47c84a563a87d6c34",
+  "prompts": {},
+  "sessions": {
+    "s_7c58a1c34d76cf": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1d04c-8812-7ca0-9c7d-59ba38f87f17",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}

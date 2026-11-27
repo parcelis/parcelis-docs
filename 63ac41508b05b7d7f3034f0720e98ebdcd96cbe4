@@ -1,0 +1,19 @@
+package.json
+  s_23872814304f0b::t_ae723a2b2fd4bf 1-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "63ac41508b05b7d7f3034f0720e98ebdcd96cbe4",
+  "prompts": {},
+  "sessions": {
+    "s_23872814304f0b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18b19-f184-7c13-b177-5f7d6dc81657",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
