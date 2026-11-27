@@ -25,3 +25,8 @@ If contact information was added, the Property Contact section shows contact nam
 Maintenance lists tickets attached to the property, including title, status, priority, and due date. Select a ticket
 to open its maintenance detail page. Financials summarizes gross scheduled rent, overdue balance, leases expiring
 within 90 days, estimated vacancy loss, and owner distribution.
+
+## Lease Amendments
+
+The property lease list and operating totals use the current rent and end date until a pending amendment
+takes effect. Lease history retains former residents while the current lease roster shows current residents.
