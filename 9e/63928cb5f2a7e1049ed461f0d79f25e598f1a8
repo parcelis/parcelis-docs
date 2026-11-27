@@ -1,0 +1,19 @@
+"docusaurus-site/docs/Platform User Guide/app-functionality/tenant-details.md"
+  s_5cab1003647491::t_645e63b24de913 43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9e63928cb5f2a7e1049ed461f0d79f25e598f1a8",
+  "prompts": {},
+  "sessions": {
+    "s_5cab1003647491": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a21b7b-12dc-7803-a8fb-c474b905a7c0",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
