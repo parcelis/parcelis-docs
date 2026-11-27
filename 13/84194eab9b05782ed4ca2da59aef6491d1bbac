@@ -1,0 +1,24 @@
+"docusaurus-site/docs/Platform User Guide/app-functionality/lease-details.md"
+  s_5cab1003647491::t_702822fdfdfe9b 65
+  s_5cab1003647491::t_46d5ad140108af 46,53-64,66-76
+"docusaurus-site/docs/Platform User Guide/app-functionality/property-details.md"
+  s_5cab1003647491::t_228244454fd024 28-32
+"docusaurus-site/docs/Platform User Guide/app-functionality/tenant-details.md"
+  s_5cab1003647491::t_ab933ce968bffe 42-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1384194eab9b05782ed4ca2da59aef6491d1bbac",
+  "prompts": {},
+  "sessions": {
+    "s_5cab1003647491": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a21b7b-12dc-7803-a8fb-c474b905a7c0",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "scoobs-mystery-bytes <15992407+scoobs-mystery-bytes@users.noreply.github.com>"
+    }
+  }
+}
